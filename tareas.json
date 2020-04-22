@@ -1,0 +1,18 @@
+[
+   {
+      "titulo": "Tomar mate con mi abuela",
+      "estado": "pendiente"
+   },
+   {
+      "titulo": "Pagar impuestos",
+      "estado": "terminada"
+   },
+   {
+      "titulo": "Comprar la cena",
+      "estado": "pendiente"
+   },
+   {
+      "titulo": "Preparar el almuerzo",
+      "estado": "terminada"
+   }
+]
