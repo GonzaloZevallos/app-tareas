@@ -1,7 +1,8 @@
 const fs = require('fs');
+const path = require('path');
 
 module.exports = {
-   archivo: './tareas.json',
+   archivo: path.join(__dirname, '../data/tareas.json'),
    leerJSON(){
       if(fs.existsSync(this.archivo)){
          let listaDeTareas = fs.readFileSync(this.archivo, 'utf8');

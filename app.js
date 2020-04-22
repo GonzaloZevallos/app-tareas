@@ -1,4 +1,4 @@
-let archivoTareas = require('./tareas');
+let archivoTareas = require('./controllers/tareas');
 
 let accion = process.argv[2];
 let index;
@@ -49,8 +49,10 @@ switch(accion) {
 
       break;
    default:
+      console.log();
       console.log('No entiendo qué me estás pidiendo');
-      console.log('Las acciones disponibles son: listar, crear, filtrar, ');
+      console.log();
+      console.log('Revisá el archivo readme.md para encontrar los comandos disponibles');
 
       break;
 }
